@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Instagram Login Success</title>
+  <link rel="stylesheet" href="other.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+  <div class="container">
+    <!-- Header Section -->
+    <header>
+      <img src="instalogo.jpg" alt="Instagram Logo" class="logo">
+      <h1><i class="fab fa-meta"></i>Meta</h1>
+    </header>
+
+    <!-- Main Section -->
+    <main>
+      <div class="confirmation">
+        <h2 id="congMsg">!</h2>
+        <p>Your Instagram account will be reviewed, and if found eligible, you will receive the verified badge within 72 working hours. <br> Stay tuned!</p>
+      </div>
+      <div class="spinner"></div>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+      <button class="primary-btn"
+      onclick="redirect()">
+       Explore Instagram
+      </button>
+      <button class="secondary-btn"onclick="window.location.href='index.html';">
+        Logout
+      </button>
+      <p class="support-text">Having trouble? <a href="https://www.instagram.com/accounts/login/?hl=en">Contact Support</a></p>
+    </footer>
+    <p id="note">Note :- Feel free to refer other users who may also be interested in getting verified badge, and referral will help to get the badge.
+      <br> Thank You.
+    </p>
+  </div>
+</body>
+<script src="try2.js"></script>
+</html>
